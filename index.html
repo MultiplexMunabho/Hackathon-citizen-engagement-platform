@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Citizen Engagement Platform</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="/firebase.js"></script> <!-- Include Firebase -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+  <h1>Citizen Engagement Platform</h1>
+
+  <!-- Login Form -->
+  <form id="loginForm">
+    <input type="text" id="username" placeholder="Username" required />
+    <input type="password" id="password" placeholder="Password" required />
+    <button type="submit">Login</button>
+  </form>
+
+  <!-- Petition Form -->
+  <form id="petitionForm" style="display:none;">
+    <input type="text" id="petitionTitle" placeholder="Petition Title" required />
+    <textarea id="petitionDescription" placeholder="Petition Description" required></textarea>
+    <button type="submit">Submit Petition</button>
+  </form>
+
+  <!-- List of Petitions -->
+  <div id="petitionsList"></div>
+
+  <script src="main.js"></script> <!-- Link to main.js for form handling -->
+</body>
+</html>
