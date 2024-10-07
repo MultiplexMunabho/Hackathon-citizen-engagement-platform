@@ -1,0 +1,117 @@
+/* style.css */
+
+/* Background image styling for the body */
+body {
+    font-family: 'Arial', sans-serif; /* Sets the font for the body */
+    background-image: url('https://th.bing.com/th/id/OIP.jFUgz09_u9KfRJlHm9ba7wHaE8?rs=1&pid=ImgDetMain'); /* Path to background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add padding around the content */
+    color: #333; /* Text color */
+  }
+  
+
+/* body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+  }
+  
+  /* styling platform heading */
+  h1 {
+    color:orangered;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  /* Style for forms */
+  form {
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  /* Input fields styling */
+  input, textarea, button {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Petition list styling */
+  #petitionsList {
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  #petitionsList div {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+  }
+  
+  #petitionsList h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    color: #2c3e50;
+  }
+  
+  #petitionsList p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #7f8c8d;
+  }
+  
+  /* Vote button inside petitions */
+  #petitionsList button {
+    background-color: #2ecc71;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  #petitionsList button:hover {
+    background-color: #27ae60;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    form {
+      width: 90%;
+      margin: 0 auto;
+    }
+  
+    #petitionsList {
+      width: 90%;
+    }
+  }
+  
