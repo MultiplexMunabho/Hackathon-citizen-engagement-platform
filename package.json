@@ -1,0 +1,20 @@
+{
+  "name": "vox-populi-engagement-platform",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "chart.js": "^4.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "firebase": "^10.14.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
